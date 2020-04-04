@@ -14,13 +14,13 @@ public class triangleArea {
       public static void main(String[] args) {
           double Stamgiac;     
         nhap = new Scanner(System.in);
-        System.out.print("nhập a=");
+        System.out.print("nhap a=");
         double a = nhap.nextDouble();
-        System.out.print("nhập b=");
+        System.out.print("nhap b=");
         double b = nhap.nextDouble();
-        System.out.print("nhập c=");
+        System.out.print("nhap c=");
         double c = nhap.nextDouble();
         Stamgiac=dienTichTamGiac(a,b,c);
-        System.out.println("Diện tích hình tam giác là :"+Stamgiac);
+        System.out.println("Dien tich tam giac la� :"+Stamgiac);
     }
 }

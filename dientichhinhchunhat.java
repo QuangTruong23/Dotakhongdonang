@@ -9,16 +9,16 @@ public class dientichhinhchunhat{
      
     public void nhap() {
         do {
-            System.out.println("Nhập chiều dài hình chữ nhật: ");
+            System.out.println("chieu dai hinh chu nhat ");
             chieuDai = scanner.nextDouble();
-            System.out.println("Nhập chiều rộng hình chữ nhật: ");
+            System.out.println("chieu rong hinh chu nhat ");
             chieuRong = scanner.nextDouble();
         } while (chieuDai < chieuRong);
     }
      
     public void hienThi(double dai, double rong) {
-        System.out.println("Chiều dài  và chiều rộng của hình chữ nhật lần lượt là "
-                + chieuDai + " và " + chieuRong);
+        System.out.println("chieu dai va chieu rong "
+                + chieuDai + " vÃ  " + chieuRong);
     }
      
      
@@ -28,22 +28,22 @@ public class dientichhinhchunhat{
     }
      
     public void hienThiDienTich(double dt) {
-        System.out.println("Diện tích hình chữ nhật = " + dt);
+        System.out.println("dien tich hinh chu nhat = " + dt);
     }
     
     public static void main(String[] args) {
     	dientichhinhchunhat dientichhcn = new dientichhinhchunhat();
          
-        // nhập chiều dài và chiều rộng hình chữ nhật
+        // nháº­p chiá»�u dÃ i vÃ  chiá»�u rá»™ng hÃ¬nh chá»¯ nháº­t
     	dientichhcn.nhap();
          
-        // hiển thị chiều dài và chiều rộng
+        // hiá»ƒn thá»‹ chiá»�u dÃ i vÃ  chiá»�u rá»™ng
     	dientichhcn.hienThi(dientichhcn.chieuDai, dientichhcn.chieuRong);
          
-        // tính diện tích
+        // tÃ­nh diá»‡n tÃ­ch
         double dienTich = dientichhcn.tinhDienTich(dientichhcn.chieuDai, dientichhcn.chieuRong);
          
-        // hiển thị chu vi và diện tích
+        // hiá»ƒn thá»‹ chu vi vÃ  diá»‡n tÃ­ch
         dientichhcn.hienThiDienTich(dienTich);
     }
  
