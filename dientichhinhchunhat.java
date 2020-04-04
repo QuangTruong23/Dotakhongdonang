@@ -44,7 +44,7 @@ public class dientichhinhchunhat{
         double dienTich = dientichhcn.tinhDienTich(dientichhcn.chieuDai, dientichhcn.chieuRong);
          
         // hiá»ƒn thá»‹ chu vi vÃ  diá»‡n tÃ­ch
-        dientichhcn.hienThiDienTich(dienTich);
+        dientichhcn.hienThiDienTich(dienTich );
     }
  
 }
