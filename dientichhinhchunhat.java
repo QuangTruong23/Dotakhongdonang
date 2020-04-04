@@ -31,7 +31,7 @@ public class dientichhinhchunhat{
         System.out.println("Dien tich hinh chu nhat = " + dt);
     }
     
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
     	dientichhinhchunhat dientichhcn = new dientichhinhchunhat();
          
         // nháº­p chiá»�u dÃ i vÃ  chiá»�u rá»™ng hÃ¬nh chá»¯ nháº­t
