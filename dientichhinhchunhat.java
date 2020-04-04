@@ -9,16 +9,16 @@ public class dientichhinhchunhat{
      
     public void nhap() {
         do {
-            System.out.println("chieu dai hinh chu nhat ");
+            System.out.println("Chieu dai hinh chu nhat ");
             chieuDai = scanner.nextDouble();
-            System.out.println("chieu rong hinh chu nhat ");
+            System.out.println("Chieu rong hinh chu nhat ");
             chieuRong = scanner.nextDouble();
         } while (chieuDai < chieuRong);
     }
      
     public void hienThi(double dai, double rong) {
-        System.out.println("chieu dai va chieu rong "
-                + chieuDai + " vÃ  " + chieuRong);
+        System.out.println("Chieu dai va chieu rong "
+                + chieuDai + " va  " + chieuRong);
     }
      
      
@@ -28,7 +28,7 @@ public class dientichhinhchunhat{
     }
      
     public void hienThiDienTich(double dt) {
-        System.out.println("dien tich hinh chu nhat = " + dt);
+        System.out.println("Dien tich hinh chu nhat = " + dt);
     }
     
     public static void main(String[] args) {

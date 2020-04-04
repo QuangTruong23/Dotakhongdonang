@@ -12,7 +12,7 @@ public class triangleArea {
         return s;
     }
       public static void main(String[] args) {
-          double Stamgiac;     
+        double Stamgiac;     
         nhap = new Scanner(System.in);
         System.out.print("nhap a=");
         double a = nhap.nextDouble();
