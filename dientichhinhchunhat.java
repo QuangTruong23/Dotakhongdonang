@@ -23,7 +23,7 @@ public class dientichhinhchunhat{
      
      
     public double tinhDienTich(double dai, double rong) {
-        dienTich = dai * rong;
+        dienTich = dai * rong ;
         return dienTich;
     }
      
